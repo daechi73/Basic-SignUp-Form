@@ -1,6 +1,11 @@
+@font-face {
+  font-family: Norse-Bold;
+  src: url(font/Norse-Bold.otf);
+}
 html,
 body {
   margin: 0px;
+  font-family: Norse-Bold;
 }
 .container-main {
   display: flex;
@@ -38,4 +43,16 @@ body {
 
 .form-right {
   margin-left: 20px;
+}
+.odin-logo {
+  display: flex;
+  justify-content: center;
+  background-color: grey;
+  opacity: 40%;
+  position: absolute;
+  top: 150px;
+  width: 450px;
+  font-size: 4rem;
+  text-align: center;
+  height: 150px;
 }
