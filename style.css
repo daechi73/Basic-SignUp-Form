@@ -6,11 +6,14 @@ html,
 body {
   margin: 0px;
   font-family: Norse-Bold;
+  height: 100%;
+  min-height: 100%;
 }
 .container-main {
   display: flex;
   margin: 0px;
   width: 100%;
+  height: 100%;
 }
 .side-hero {
   margin: 0px;
@@ -21,7 +24,6 @@ body {
   align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 .description {
   max-width: 500px;
@@ -55,4 +57,28 @@ body {
   font-size: 4rem;
   text-align: center;
   height: 150px;
+}
+input:valid {
+  border-color: green;
+}
+input:invalid {
+  border-color: red;
+}
+
+input {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-radius: 6px;
+}
+input:focus {
+  border-color: green;
+}
+label {
+  margin-top: 20px;
+}
+.msg {
+  font-size: 0.8rem;
+  color: red;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  position: absolute;
 }
