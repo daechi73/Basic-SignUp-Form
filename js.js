@@ -40,4 +40,8 @@ document.getElementById("btn").addEventListener("click", (e) => {
   } else {
     document.getElementById("confirmPasswordMsg").textContent = "";
   }
+  if (confirmPassword.value != password.value) {
+    document.getElementById("confirmPasswordMsg").textContent =
+      "Password doesn't match";
+  }
 });
