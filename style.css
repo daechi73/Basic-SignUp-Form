@@ -1,16 +1,41 @@
+html,
+body {
+  margin: 0px;
+}
 .container-main {
   display: flex;
-  justify-content: right;
+  margin: 0px;
+  width: 100%;
 }
-
+.side-hero {
+  margin: 0px;
+}
 .container-info {
+  width: 50rem;
+  text-align: center;
+  align-items: center;
   display: flex;
   flex-direction: column;
-  width: 50rem;
+  align-items: center;
 }
 .description {
   max-width: 500px;
+  margin-top: 150px;
 }
 .form {
+  margin-top: 20px;
   max-width: 550px;
+  display: flex;
+}
+.input {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.createAccount {
+  margin-top: 30px;
+}
+
+.form-right {
+  margin-left: 20px;
 }
